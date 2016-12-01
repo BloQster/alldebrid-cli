@@ -1,0 +1,25 @@
+BLQ Alldebrid CLI Usage:
+java -jar blq_alldebrid.jar [options]*
+
+If several commands are provided, they are executed in the order of the command list.
+Descriptions starting with a * must be provided in order to let the options work properly.
+
+Commands:
+-help|-h                            Shows this text and aborts the program.
+-username|-u username               *Sets the username for the login to Alldebrid.
+-password|-p password               *Sets the password for the login to Alldebrid.
+-magnet|-m magnetLink               Adds a magnetlink to the Alldebrid account.
+-magnetFile|-mF file                Adds a text file of magnet links to the Alldebrid account. One magnet link per line.
+-torrent|-t torrentFile             Adds a torrent file (absoltue or relative path) to the Alldebrid account.
+-torrentFolder|-tF folder           Adds a folder of torrents (recursive) to the Alldebrid account.
+-list|-l                            Lists all Torrents.
+-listIncomplete|-lI                 Lists all incomplete Torrents.
+-listComplete|-lC                   Lists all completed Torrents.
+-dlList|-dl folderPath              Creates one text file with download links per completed torrent. The text files will
+                                    be named after the file name. Existing text files will be overwritten. Folder must
+                                    exist.
+-remove|-rm                         Removes all completed downloads.
+-removeIncomplete|-rmC              Removes all incompleted downloads.
+-removeAll|-rmA                     Removes all downloads.
+-removeFiles|-rF                    Removes all files that were used to import torrents or magnet links. Happens only if
+                                    no exception occurs.
