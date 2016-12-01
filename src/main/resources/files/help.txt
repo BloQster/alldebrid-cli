@@ -1,11 +1,11 @@
 BLQ Alldebrid CLI Usage:
-java -jar blq_alldebrid.jar [options]*
+java -jar blq_alldebrid.jar [commands]*
 
 If several commands are provided, they are executed in the order of the command list.
-Descriptions starting with a * must be provided in order to let the options work properly.
+Descriptions starting with a * must be provided in order to let the commands work properly.
 
 Commands:
--help|-h                            Shows this text and aborts the program.
+-help|-h                            Shows the help text and aborts the program.
 -username|-u username               *Sets the username for the login to Alldebrid.
 -password|-p password               *Sets the password for the login to Alldebrid.
 -magnet|-m magnetLink               Adds a magnetlink to the Alldebrid account.
