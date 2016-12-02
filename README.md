@@ -3,7 +3,7 @@
 This CLI tool is intended to provide CLI access to Alldebrid.com.
 ATM only the torrent functionalty is build in.
 This project and the jar can also be used as a library for java/groovy projects.
-A precompiled jar is available at the /bin folder and can [be downloaded with this link](https://raw.githubusercontent.com/BloQster/alldebrid-cli/master/bin/blq_alldebrid.jar). If you want to build the jar by yourself, you can use the provided gradle wrapper and the shadowJar task.
+A precompiled jar is available at the release page and can [be downloaded with this link](https://github.com/BloQster/alldebrid-cli/releases/download/1.0.0/blq_alldebrid.jar). If you want to build the jar by yourself, you can use the provided gradle wrapper and the shadowJar task.
 
 ##Compile
 `./gradlew shadowJar` You can find the compiled jar under /build/libs/blq_alldebrid.jar
